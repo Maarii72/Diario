@@ -20,3 +20,30 @@ html,body{
 }
 
 /**********menu******/
+header{
+	width: 100%;
+	height: 100%;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url('../imagens/imgcapa.jpg');
+	
+
+}
+
+header nav{
+	float: right;
+}
+
+nav.mobile-menu{
+	cursor: pointer;
+	display: none;
+	width: 32px;
+	height: 32px;
+	background-image: url('../imagens/menu.png');
+	background-size: 100% 100%;
+}
+
+nav.mobile-menu:hover ul{
+	opacity: 1;
+}
